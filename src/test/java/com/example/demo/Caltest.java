@@ -15,7 +15,7 @@ class Caltest {
 	}
 	@Test
 	public void divtest() {
-		//int x= c.div(1,1);
+		
 		assertThrows(ArithmeticException.class,()->c.div(10,2),"this is an error");
 	}
 
