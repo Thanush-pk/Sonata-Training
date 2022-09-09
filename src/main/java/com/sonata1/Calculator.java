@@ -12,7 +12,7 @@ public class Calculator {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		Calculator c=new Calculator();
 		int a =c.add(2,4);
 		System.out.println("Adddittion \t"+a);
